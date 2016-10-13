@@ -17,9 +17,9 @@ TARGET_CFLAGS   += "-fpic"
 RDEPENDS_${PN} += "clear-once"
 RDEPENDS_${PN} += "settings"
 RDEPENDS_${PN} += "network"
-SRC_URI += "git://github.com/ken1029/phosphor-host-ipmid"
+SRC_URI += "git://github.com/openbmc/phosphor-host-ipmid"
 
-SRCREV = "ffd93f92813798335757fde598be6157b780a8af"
+SRCREV = "87e080b537aff3fd22ec56ef72660937bed38422"
 
 S = "${WORKDIR}/git"
 INSTALL_NAME = "ipmid"
